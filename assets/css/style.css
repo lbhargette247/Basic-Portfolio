@@ -1,28 +1,24 @@
 body {
-    background-color: goldenrod; 
-    margin: 0%;
-    padding: 0%;
     font-family: "Georgia", 'Times New Roman', Times, serif;
+    background-repeat: initial;
+    border-color: #666;
+    background-image: url("/assets/images/halftone-yellow/halftone-yellow.png");
+    color: black;
 }
 
-h1 {
+#header {
     color: goldenrod;
     background-color: darkred;
+    border-width: 1px;
+    border-bottom-style: outset;
+    border-bottom-color: #666;
     text-align: center;
-    margin: 0%;
     padding-top: 10px;
     padding-bottom: 10px;
-    }
+}
+
+.picture
 
 p {
     text-align: center;
-}
-
-.container {
-    width: 960px;
-    margin: 0%;
-}
-
-img {
-    bottom: -420px;
 }
